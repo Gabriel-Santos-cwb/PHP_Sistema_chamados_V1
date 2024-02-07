@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Edu+VIC+WA+NT+Beginner&family=Finlandica&family=Hubballi&family=Junge&family=Koh+Santepheap:wght@100&family=Lacquer&family=Montserrat:wght@100&family=Noto+Sans+Symbols+2&display=swap');
+/*
+font-family: 'Blinker', sans-serif;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Finlandica', sans-serif;
+font-family: 'Hubballi', cursive;
+font-family: 'Junge', serif;
+font-family: 'Koh Santepheap', cursive;
+font-family: 'Lacquer', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Symbols 2', sans-serif;
+*/
+
+.painel-inicial{
+    /*background-color: rgb(49, 58, 58);*/
+    background-color: hsla(0, 0%, 91%, 0);
+    color: rgb(8, 8, 8);
+}
+.formulario-novo-chamado{
+    max-width: 700px;
+    font-family: 'Blinker', sans-serif;
+    text-align: left;
+    margin-left: 6%;
+}
+
+.formulario-novo-chamado select{
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    background-color: #24242415;
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.formulario-novo-chamado label{
+   font-size: 20px;
+   padding: 1rem;
+   
+}
+
+.div-lateral{
+    font-family: 'Blinker', sans-serif;
+    
+    min-width: 400px;
+    min-height: 200px;
+    margin-top: -50%;
+    margin-left: 62%;
+    position: fixed;
+}
+
+.div-lateral label{
+    font-size: 20px;
+    padding: 1rem;
+ }

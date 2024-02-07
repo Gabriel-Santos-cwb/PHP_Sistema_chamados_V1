@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Edu+VIC+WA+NT+Beginner&family=Finlandica&family=Hubballi&family=Junge&family=Koh+Santepheap:wght@100&family=Lacquer&family=Noto+Sans+Symbols+2&display=swap');
+
+
+/* PARTE DA DIV INICIAL QUE SE SE MOVE AO CLICAR NO MENU */
+.conteudos-chamados{
+    padding-left: 1rem;
+    margin-left: 0%;
+    background-color: #e9e9e9;
+    overflow: auto;
+    font-family: 'Hubballi', cursive;
+    height: 100vh;
+    
+    
+}
+
+/* PARTE DA SEGUNDA DIV QUE É DE TITULO */
+
+.titulo-chamados{
+    text-align: center;
+    margin-top: 10px;
+  
+   background-color: transparent; 
+    height: 10vh;
+    margin-left: -19px;
+    font-family: 'Junge', serif;
+    font-size: 50px;
+}
+.titulo-chamados:hover{
+    font-size: 50px;
+}
+
+/* PARTE DOS BOTÕES DA PAGINA INICIAL */
+
+.botoes{
+    text-align: center;
+    align-items: center;
+    border: solid 1px black;
+    color: #e9e9e9;
+    font-size: 22px;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(75, 94, 94);
+    margin: 1% 1%;
+    direction: none;
+}
+
+.botoes:hover{
+    width: 320px;
+    height: 100px;
+    background-color: rgb(35, 37, 37);
+}
+
+
+
+.painel-inicial a{
+    text-decoration: none;
+    color: #e9e9e9;
+}
+
+/* PARTE DO EDITAR PRIORIDADE*/
+
+.formualrio-edit-prioridade label{
+    font-size: 23px;
+}
+
+.formualrio-edit-prioridade input:hover{
+    color: #0f0f0f;
+    border: solid 2px #1fee42;
+}
+
+.formualrio-edit-prioridade select:hover{
+    color: #0f0f0f;
+    border: solid 2px #ee1f1f;
+   
+}
+
+.formualrio-edit-prioridade button{
+    color: black;
+    background-color: transparent;
+    font-size: 26px;
+    border: solid 1px black;
+    width: 130px;
+    height: 55px;
+    align-items: center;
+    margin-left: 90%;
+    
+}
+
+.formualrio-edit-prioridade button:hover{
+    
+    color: black;
+    background-color: #d1d1d1;
+    font-size: 26px;
+    border: solid 1px black;
+    width: 130px;
+    height: 60px;
+    font-family: 'Lacquer', cursive;
+}
+
+/* PARTE DO ADICIONAR NOVO SETOR */
+
+.adicionar-setor label{
+    font-size: 25px;
+    
+}
+
+.adicionar-setor{
+    margin: 2%;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+}
+.adicionar-setor input{
+    
+    font-size: 20px;
+    border: solid 1px #1fee42; 
+}
+.btn-add-setor{
+    width: 30%;
+    height: 40px;
+    margin: 1%;
+    border: solid 1px #ee1fba;
+    
+}
+.btn-add-setor:hover{
+    font-size: 26px;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #68ec47, rgba(243, 238, 238, 0.8)); 
+    
+   
+}
+
+/* PARTE DO DELETAR SETOR */
+.deletar-setor input{
+font-size: 20px;
+}
+
+.deletar-setor label{
+    font-size: 25px;
+}
+
+.deletar-setor{
+    margin: 2%;
+    background-color: transparent;
+    align-items: center;
+    text-align: center;
+}
+
+.deletar-setor select{
+    
+    font-size: 20px;
+    border: solid 1px #f80404; 
+}
+
+
+.btn-dll-setor{
+    width: 30%;
+    height: 40px;
+    margin: 1%;
+    border: solid 1px #f10505;
+    
+}
+
+.btn-dll-setor:hover{
+    font-size: 26px;
+    height: 60px;
+    background-image: linear-gradient(to bottom, #f80000, rgba(243, 238, 238, 0.8)); 
+   
+    
+}
+
+/* PARTE DO RESTAURA SETOR */
+
+form{
+    background-color: transparent;
+}
+
+.restaura-setor input{
+    font-size: 20px;
+    }
+    
+    .restaura-setor label{
+        font-size: 25px;
+    }
+    
+    .restaura-setor{
+        margin: 2%;
+        background-color: transparent;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .restaura-setor select{
+        
+        font-size: 20px;
+        border: solid 1px #f80404; 
+    }
+    
+    
+    .btn-RES-setor{
+        font-size: 22px;
+        width: 30%;
+        height: 40px;
+        margin: 1%;
+        border: solid 1px #f10505;
+        
+    }
+    
+    .btn-RES-setor:hover{
+        font-size: 26px;
+        height: 60px;
+        background-image: linear-gradient(to bottom, #f80000, rgba(243, 238, 238, 0.8)); 
+       
+        
+    }
+
+/* AQUI ESTA A PARTE DOS BOTOES PARA ABRIR OS FORM */
+
+.btn-abre-forms{
+    border: none;
+    color: black;
+    width: 35%;
+    font-size: 30px;
+    background-color: transparent;
+}
+.btn-abre-forms:hover{
+
+    color: #fff;
+    width: 37%;
+    font-size: 35px;
+    
+}
+.organiza-btn{
+    background-color: transparent;
+    margin: 2%;
+    text-align: center;
+    
+   align-items: center; 
+}
+
+
+/* CALENDARIOS */ 
+
+.calendario-edit{
+   
+    width: 600px;
+    padding: 2px;
+    font-size: 22px;
+    text-align: left;
+}
+
+.calendario-edit input{
+    width: 300px;
+    border-radius: 1rem;
+    border: solid 1px black;
+}
+
+
+
+.check{
+    border: solid 1px black;
+    width: 25px;
+    height: 25px;
+    text-align: left;
+}
+
+.Nchamado{
+   
+    font-size: 16px;
+}
+
+.Nchamado:hover{
+    border: 1px ;
+    font-size: 50px;
+    color: #fff;
+    
+}
+
+.Nlogin{
+   
+    font-size: 16px;
+}
+
+.Nlogin:hover{
+    border: 1px ;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.mensag{
+    font-size: 22px;
+    color: red;
+}

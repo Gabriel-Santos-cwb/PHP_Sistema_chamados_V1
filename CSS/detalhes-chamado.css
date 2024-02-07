@@ -1,0 +1,100 @@
+.respostas-div{
+    background-color: rgb(248,249,250);
+    min-width: 690px;
+    
+}
+.descricao{
+    max-height: 180px;
+    min-height: 70px;
+    overflow-y: scroll;  
+}
+.anexos{
+    max-height: 70px;
+    min-height: 70px;
+    overflow-y: scroll;   
+}
+.scrollable-div {
+    
+    height: 200px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: rgb(248,249,250);
+    font-size: 24px;
+    border: solid 1px black;
+    margin: 8px;
+    padding-left: 6px;
+}
+.organiza-flex{
+    background-color:rgb(248,249,250);
+    display: flex;
+    width: 600px;
+}
+
+.chamado-details {
+    
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .chamado-details h3 {
+        margin-top: 0;
+        font-size: 22px;
+        color: #333;
+    }
+
+    .chamado-details p {
+        margin: 5px 0;
+        font-size: 18px;
+        color: #666;
+    }
+
+    .chamado-details .label {
+        font-weight: bold;
+    }
+
+    .chamado-details .numero {
+        color: #ff6600;
+    }
+
+    .chamado-details .status {
+        color: #009900;
+    }
+
+    .chamado-details .atendente {
+        color: #0000ff;
+    }
+
+    .chamado-details .categoria {
+        color: #990099;
+    }
+
+    .chamado-details .subcategoria {
+        color: #cc0099;
+    }
+
+    .chamado-details .prioridade {
+        color: #ff0000;
+    }
+    .form-barra-detalhes{
+    text-align: center;
+    font-size: 20px;
+    }
+
+    .form-info{
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .form-barra-detalhes select{
+        width: 90%;
+       height: 36px;
+       border-radius: 5px;
+       margin: 4px;
+    }
+
+    .form-barra-detalhes option:hover{
+        font-size: 30px;
+        background-color: #0000ff;
+    }

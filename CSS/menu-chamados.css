@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Edu+VIC+WA+NT+Beginner&family=Finlandica&family=Hubballi&family=Junge&family=Koh+Santepheap:wght@100&family=Lacquer&family=Noto+Sans+Symbols+2&display=swap');
+
+/* letra efeito sangue : 
+ font-family: 'Lacquer', cursive;
+
+ simbolos 
+ font-family: 'Noto Sans Symbols 2', sans-serif;
+
+ */
+
+ .nome-perfil{
+    font-size: 26px;
+    padding-left: 36%;
+    margin-top: -46px;
+    font-family: 'Hubballi';
+ }
+
+
+.menuu a:hover{
+    font-size: 55px;
+    font-family: 'Hubballi', cursive;
+    color: #e70303;
+   
+}
+.navbar-chamados{
+    background-color: black;
+    background-image: linear-gradient(to bottom, #262626, rgba(243, 238, 238, 0.8)); 
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+
+.btn-drop-menu{
+    background-color: black;
+    width: 100%;
+    margin: 2px;
+    height: 66px;
+    color: #fff;
+    font-family: 'Hubballi', cursive;
+    font-size: 18px;
+   
+    
+}
+
+.btn-drop-menu:hover{
+    font-size: 23px;
+    transition: all .5s ease;
+    background-color: #faf4f4;
+    color: black;
+}
+.div-menu{
+  
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 55px;
+    width: 78px;
+    
+  
+}
+
+.div-menu a:hover{
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(192, 107, 10);
+    
+}
+
+.div-menu a{
+    font-size: 15px;
+    font-family: 'Hubballi', cursive;
+    color: #fff;
+    background-color: rgb(196, 190, 183);
+}
+
+.btn-abrir{
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background: #262626; /*botão fchar abrir */
+    height: 40px;
+    width: 48px;
+    
+    
+}
+
+.btn-abrir:hover{
+    background: #f0eeee; /*botão fchar abrir */
+    color: black;
+}
+
