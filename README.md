@@ -1,3 +1,5 @@
+Sistema utiliza PHP, JavaScript, HTML5 e Bootstrapst.
+
 Para começar o utilizar o sistema devemos criar as conexões de banco de dados de Login e Chamados, estrutura na pasta "import de Banco"
 
 Usuario: Admin
