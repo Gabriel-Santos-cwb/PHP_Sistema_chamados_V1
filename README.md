@@ -1,4 +1,4 @@
-Para começar o utilizar o sistema devemos criar as conexões de banco de dados de Login e Chamados 
+Para começar o utilizar o sistema devemos criar as conexões de banco de dados de Login e Chamados, estrutura na pasta "import de Banco"
 
 Usuario: Admin
 Senha: Admin@23
